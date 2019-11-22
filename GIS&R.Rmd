@@ -17,7 +17,7 @@ library(rmapshaper)
 
 #Reads in the shapefile.
 ```{r}
-My_SF <- st_read("india_states_2014/india_states.shp")
+sf <- st_read("india_states_2014/india_states.shp")
 ```
 
 #Downloads shapefiles for Indian states. 
